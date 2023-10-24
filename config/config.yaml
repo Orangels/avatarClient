@@ -1,0 +1,14 @@
+fps: 25
+q_nums: 32
+mel_step_size: 5
+fs: 16000
+channels: 1
+sound_threshold: 1000
+silence_num_threshold: 32
+stream_batch_size: 16
+stream_batch_added_size: 6
+face_id_file: doc/temp_female.pkl
+face_vid_path: doc/temp_female.mp4
+resize_factor: 1
+rotate: False
+crop: [0, -1, 0, -1]

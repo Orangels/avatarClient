@@ -1,0 +1,80 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# custom
+*~
+.DS_Store
+*/.DS_Store
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.a
+*.so.[0-9]*
+*.pyc
+*.pyo
+__pycache__
+*.re
+.#*
+.*.swp
+Pods
+*.xcuserdatad
+*.xcscmblueprint
+xcuserdata
+Podfile.lock
+node_modules/
+.idea
+*.mp4
+*.avi
+*.caffemodel
+*.prototxt
+*.tensorcache
+*build*
+# *UnitTests
+imgs/*
+*.jpg
+*npz
+*.png
+*.onnx
+UnitTest/fisheye/IVE_SDK_2.3.12.1_Linux/
+*weights/*
+*npy
+*log
+*.clion.*
+*c_file*
+*debug*
+*.pdb
+*Debug*
+*.vs*

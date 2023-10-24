@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{63f4f369-b700-467d-83bc-f97ea478a685}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AvatarDemo.h" />
+    <ClInclude Include="AvatarDemoDlg.h" />
+    <ClInclude Include="DisplayWindow.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="Param.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SettingDlg.h" />
+    <ClInclude Include="StringUtil.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Common.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AvatarDemo.cpp" />
+    <ClCompile Include="AvatarDemoDlg.cpp" />
+    <ClCompile Include="DisplayWindow.cpp" />
+    <ClCompile Include="Misc.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="SettingDlg.cpp" />
+    <ClCompile Include="StringUtil.cpp" />
+    <ClCompile Include="Common.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AvatarDemo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AvatarDemo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="scripts\avatar.py">
+      <Filter>scripts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AvatarDemo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
